@@ -6,7 +6,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: '/trillion-fsrv-website/', // Update this to match your repository name
+  base: '/fsrv/', // Update this to match your repository name
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
